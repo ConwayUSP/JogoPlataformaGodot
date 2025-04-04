@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=3 uid="uid://cfjwcviu4scxn"]
 
-[ext_resource type="Script" uid="uid://ce03egpk0ngla" path="res://scripts/poção.gd" id="1_rci0r"]
+[ext_resource type="Script" uid="uid://ce03egpk0ngla" path="res://scripts/pocao.gd" id="1_rci0r"]
 [ext_resource type="Texture2D" uid="uid://jvtqnww8j671" path="res://assets/brackeys_platformer_assets/sprites/poção.png" id="2_uubmt"]
 [ext_resource type="AudioStream" uid="uid://m153txl8v35b" path="res://efeitos_sonoros/cura.wav" id="3_umgih"]
 
@@ -23,7 +23,7 @@ animations = [{
 size = Vector2(20, 24)
 
 [node name="Poção" type="Area2D"]
-collision_mask = 2
+collision_mask = 128
 script = ExtResource("1_rci0r")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]

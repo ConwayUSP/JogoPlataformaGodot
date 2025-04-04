@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://bkbbo25rex202"]
+
+[ext_resource type="Script" uid="uid://1es5xrxjd8dw" path="res://scripts/area_gelo.gd" id="1_q05f0"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ssvqc"]
+size = Vector2(227, 17.8651)
+
+[node name="AreaGelo" type="Area2D"]
+collision_layer = 3
+collision_mask = 3
+script = ExtResource("1_q05f0")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.773926, 0.134949)
+shape = SubResource("RectangleShape2D_ssvqc")

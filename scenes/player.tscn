@@ -248,7 +248,6 @@ radius = 6.0
 [node name="Player" type="CharacterBody2D"]
 z_index = 5
 position = Vector2(-1, -12)
-collision_layer = 2
 script = ExtResource("1_hqe82")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]

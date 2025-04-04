@@ -406,7 +406,7 @@ stream = ExtResource("4_5pgwy")
 
 [node name="attackCollider" type="Area2D" parent="." node_paths=PackedStringArray("enemy") groups=["enemy"]]
 collision_layer = 16
-collision_mask = 2
+collision_mask = 128
 collision_priority = 2.0
 script = ExtResource("4_bnirc")
 enemy = NodePath("..")
